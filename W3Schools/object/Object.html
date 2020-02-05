@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object</title>
+
+    <p id = "demo"></p>
+    <p id = "demo1"></p>
+    <p id = "demo2"></p>
+    <p id = "demo3"></p>
+
+
+</head>
+<body>
+<script>
+    var person = {
+        firstName : "John",
+        lastName  : "Doe",
+        age     : 50,
+        eyeColor  : "blue"
+    };
+
+    document.getElementById("demo").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+
+    document.getElementById("demo1").innerHTML =
+        person.firstName + " has " + person.eyeColor + " coloured eyes.";
+
+    document.getElementById("demo2").innerHTML =
+        person.firstName + "'s last name is " + person.lastName;
+
+    document.getElementById("demo3").innerHTML =
+        person.firstName + "'s last name is " + person.lastName;
+
+
+
+</script>
+</body>
+</html>

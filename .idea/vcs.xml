@@ -3,5 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/All about Javascript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Javascript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/allAboutJavaScriptRepo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/allaboutjavascript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitlab" vcs="Git" />
   </component>
 </project>

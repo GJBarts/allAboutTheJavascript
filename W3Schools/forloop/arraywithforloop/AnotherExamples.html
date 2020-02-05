@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+
+    <p id="demo"></p>
+</head>
+<body>
+
+<script>
+    //First we declare a variable that has a string array assigned to it
+    var bikesAcessories = ["mud-guard", "handlebar", "gloves", "jersey", "helmet", "stabalisers", "shoes"];
+    //text to store the individual indexes
+    var text = " ";
+    //empty variable to store the count
+    var i;
+    //for loop that iterates the amount of indexes in the array and then stores those counts to
+    //text
+    for (i=0; i<bikesAcessories.length; i++) {
+        //stores
+        text += bikesAcessories[i] + "<br>";
+    }
+    //prints to the html
+    document.getElementById("demo").innerHTML = text;
+
+
+</script>
+
+
+</body>
+</html>

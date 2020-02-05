@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For Loop</title>
+</head>
+<body>
+<p id = "for">This is the test</p>
+
+<script>
+    var bar = ["hello", "how are you", "ok", "goodbye", 2];
+    var x = " ";
+    var i;
+/*
+A for loop starts with an initial expression; Condition; Update i++
+ */
+    for (i = 0; i < bar.length; i++) {
+        x += bar[i] + "<br>";
+    }
+    document.getElementById("for").innerHTML = x;
+
+    for (var i = 1; i<=100; i++){
+        if (i % 2 !== 0 ) {
+            console.log("fizz");
+        } else {
+            console.log("buzz")
+        }
+    }
+
+</script>
+</body>
+</html>
